@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Mono', sans-serif;
+}
+.box-section{
+  height: 150vh;
+}
+.navigation-section{
+  position: fixed;
+  top: 20px;
+}
+.navigation{
+  top: 20px;
+  position: sticky;
+}
+.nav-item{
+
+  list-style: none;
+  color: #fff;
+}
+
+.boxes{
+  position: relative;
+  width: 500px;
+  height: 500px;
+  background: yellow;
+}
+.black-box{
+  position: absolute;
+  background-color: black;
+  width: 100px;
+  height: 600px;
+}
+.red-box{
+  position: absolute;
+  left: 150px;
+  background-color: red;
+  width: 100px;
+  height: 300px;
+  bottom: 0;
+}
+.green-box{
+  position: fixed;
+  left: 300px;
+  background-color: green;
+  width: 100px;
+  height: 300px;
+}
